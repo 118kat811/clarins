@@ -3,7 +3,7 @@ body {
 }
 
 /*HEADER SECTION*/
-.headermain {
+#headermain {
     padding: 1px;
     opacity: 0.9;
     text-align: center;
@@ -16,7 +16,9 @@ body {
     z-index: 9999;
     top: 0;
     height: 15%;
-    width: 100%
+    width: 100%;
+    display: block;
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */        
 }
 
 .face {
