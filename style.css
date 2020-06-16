@@ -1,0 +1,563 @@
+body {
+  margin: 0;
+}
+
+/*HEADER SECTION*/
+.headermain {
+    padding: 1px;
+    opacity: 0.9;
+    text-align: center;
+    letter-spacing: 60px;
+    box-shadow: 1px 1px 5px black;
+    background: white;
+    color: black;
+    font-size: 30px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    height: 15%;
+    width: 100%
+}
+
+.face {
+    font-family: Avenir Next;  
+    border-color: transparent;
+    background-color: transparent;
+    padding: 30px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.face:hover {   
+    border-color: transparent;
+    background-color: transparent;
+    color: red;
+}
+    
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #bf0f35;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    height: 6.3%;
+    width: 100%
+}
+
+.footer {
+        position: absolute;
+
+    padding: 0px;
+    opacity: 0.9;
+    text-align: center;
+    background: grey;
+    color: black;
+    font-size: 18px;
+    top: 828%;
+    height: 15%;
+    width: 100%
+}
+
+
+
+/*MODEL SECTION*/
+.model {
+    top: -15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    text-align: center;
+}
+
+.model .model-text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 43%;
+    right: 10%;
+    top: 17%;
+    text-align: center;
+    width: 60%; 
+    font-family: Cochin;  
+    color: black;
+    font-size: 30px;
+}
+
+.mate {
+    color: #690b08;
+    font-size: 60px;
+}
+
+.model .head {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    right: 20%;
+    top: 65%;
+    width: 80%; 
+    font-family: Cochin;  
+    color: white;
+    font-size: 60px;
+}
+
+.choose {
+    font-family: Cochin;  
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: transparent;
+    padding: 14px 35px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.choose:hover {
+    border-color: white;
+    color: white;
+}
+
+
+
+/*LIPSTICK SECTION*/
+.rect {
+    top: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    text-align: center;
+}
+
+.rect .lipstick {
+    position: absolute;
+    left: -14%;
+    right: 0%;
+    top: -25%; 
+    width: 80%;
+}
+
+.rect .logo {
+    position: absolute;
+    left: 35%;
+    right: 0%;
+    top: 38%; 
+    width: 80%;
+}
+
+.rect .new {
+    position: absolute;
+    text-align: left;
+    left: 4.3%;
+    right: 20%;
+    top: -42%; 
+    height: 100%;
+    width: 80%; 
+    font-family: Helvetica Neue;  
+    color: #6d2321;
+    font-size: 160px;
+}
+
+.rect .left {
+    position: absolute;
+    text-align: right;
+    left: 13%;
+    right: 10%;
+    top: 6%; 
+    width: 80%; 
+    font-family: Helvetica Neue;  
+    font-weight: 100;
+    color: white;
+    font-size: 24px;
+}
+
+.rect .right {
+    position: absolute;
+    text-align: left;
+    left: 16%;
+    right: 10%;
+    top: 53%; 
+    width: 80%;
+    font-family: Helvetica Neue;  
+    font-weight: 100;
+    color: white;
+    font-size: 24px;
+}
+
+.rect .oldcost {
+    position: absolute;
+    text-align: left;
+    left: 42%;
+    right: 10%;
+    top: 83.7%; 
+    width: 80%;
+    font-family: Helvetica Neue;  
+    font-weight: 100;
+    color: white;
+    font-size: 28px;
+}
+
+.buy {
+    font-family: Helvetica Neue;  
+    font-weight: 100;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: inherit;
+    padding: 10px 55px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.buy:hover {
+    border-color: darkgrey;
+    border-style: solid;
+    background: inherit;
+    color: darkgrey;
+}
+
+
+
+/*HUES SECTION*/
+.hues {
+    top: 295px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.hues .des {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    right: 10%;
+    top: -10%; 
+    width: 80%;
+    font-family: Cochin;  
+    color: black;
+    font-size: 40px; 
+}
+
+.hues .lips {
+    position: absolute;
+    left: 58.3%;
+    right: 0%;
+    top: 0%; 
+    width: 80%;  
+}
+
+.hues .colors {
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 32%; 
+    width: 80%;
+}
+
+
+
+/*COLORS SECTION*/
+.pink {
+    top: 290px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.pink .lipstickcolors {
+    position: absolute;
+    left: 38%;
+    right: 0%;
+    top: 10%; 
+    width: 80%;
+}
+
+.pink .heading {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    right: 20%;
+    top: 0%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: black;
+    font-size: 50px; 
+}
+
+.pink .desc {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    right: 20%;
+    top: 14%;
+    width: 80%; 
+    font-family: Cochin;  
+    color: black;
+    font-size: 26px;
+}
+
+.pink .buy2 {
+    font-family: Cochin;  
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: inherit;
+    padding: 10px 65px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pink .buy2:hover {
+    border-color: white;
+    background: inherit;
+    color: white;
+}
+
+
+
+/*PENCIL SECTION*/
+.pencil {
+    top: 280px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.pencil .pencilimg {
+    position: absolute;
+    left: 85%;
+    right: 0%;
+    top: 10%; 
+    width: 80%;  
+}
+
+.pencil .heading2 {
+    position: absolute;
+    left: 8%;
+    right: 0%;
+    top: 10%; 
+    width: 80%;
+}
+
+.pencil .pencildesc {
+    position: absolute;
+    text-align: left;
+    left: 10%;
+    right: 30%;
+    top: 35%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #b26265;
+    font-size: 26px;
+}
+
+.pencil .newcost {
+    position: absolute;
+    text-align: left;
+    left: 55%;
+    right: 30%;
+    top: 63%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #b26265;
+    font-size: 38px;
+}
+
+.pencil .oldcost2 {
+    position: absolute;
+    text-align: left;
+    left: 64%;
+    right: 30%;
+    top: 63.7%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #b26265;
+    font-size: 32px;
+}
+
+.pencil .paint {
+    position: absolute;
+    left: 10%;
+    right: 0%;
+    top: 60%; 
+    width: 80%; 
+}
+
+.pencil .button {
+    position: absolute;
+    text-align: center;
+    left: 23%;
+    right: 10%;
+    top: 68%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #b26265;
+    font-size: 30px;
+}
+
+.pencil .buy3 {
+    font-family: Cochin;  
+    color: #b26265;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b26265;
+    background-color: inherit;
+    padding: 10px 95px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pencil .buy3:hover {
+    border-color: black;
+    background: inherit;
+    color: black;
+}
+
+
+
+/*PURPLE BONUS SECTION*/
+.purple {
+    top: 700px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.purple .heading3 {
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    right: 30%;
+    top: 2%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #642897;
+    font-size: 24px;
+}
+
+.purple .minies {
+    position: absolute;
+    left: 4%;
+    right: 0%;
+    top: 26%; 
+    width: 80%;
+}
+
+.purple .bag {
+    position: absolute;
+    left: 36%;
+    right: 0%;
+    top: 50%; 
+    width: 80%; 
+}
+
+.purple .purpledesc {
+    position: absolute;
+    text-align: right;
+    left: 10%;
+    right: 30%;
+    top: 35%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #642897;
+    font-size: 24px;
+}
+
+
+
+/*PINK BONUS SECTION*/
+.pinkframe {
+    top: 750px; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.pinkframe .heading4 {
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    right: 30%;
+    top: 2%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #97284f;
+    font-size: 24px;
+}
+
+.pinkframe .combo {
+    position: absolute;
+    left: 28%;
+    right: 0%;
+    top: 35%; 
+    width: 80%; 
+}
+
+.pinkframe .pinkdesc {
+    position: absolute;
+    text-align: right;
+    left: 15%;
+    right: 30%;
+    top: 32%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #97284f;
+    font-size: 24px;
+}
+
+
+
+/*BLUE BONUS SECTION*/
+.blue {
+    top: 800px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.blue .heading5 {
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    right: 30%;
+    top: 2%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #282d97;
+    font-size: 24px;
+}
+
+.blue .bluedesc {
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    right: 30%;
+    top: 74%; 
+    width: 80%; 
+    font-family: Cochin;  
+    color: #282d97;
+    font-size: 24px;
+}
+
+.blue .group {
+    position: absolute;
+    left: 29%;
+    right: 0%;
+    top: 35%; 
+    width: 80%; 
+}
