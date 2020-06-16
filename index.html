@@ -10,7 +10,7 @@
 <body>
 
 <!--HEADER SECTION -->    
-<div class="headermain">
+<div id="headermain">
     <br>
     <button class="face" onClick="window.location='https://www.clarins.ru/lico-200/'">ЛИЦО</button>
     
@@ -339,6 +339,22 @@
     <img src="images/group.png" width = 500px, height = auto;>
     </div>    
 </div>
+    
+    
+<!-- Transition effect when sliding down (and up) -->    
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+        
+    if (prevScrollpos > currentScrollPos) {
+    document.getElementById("headermain").style.top = "0";
+    } else {
+    document.getElementById("headermain").style.top = "-65px";
+    }
+    prevScrollpos = currentScrollPos;
+    }
+</script>
     
 </body>
 </html>
