@@ -12,14 +12,26 @@ body {
     display: inline-block;
 }
 
-.mainbox2 {
+/*FOOTER */
+#footer {
+    padding: 1px;
     position: absolute;
-    height: 100%;
+    text-align: center;
+    background: darkgrey;
+    color: black;
+    font-size: 17px;
+    z-index: 9999;
+    top: 6220px;
+    height: 100px;
+    width: 100%;
+    display: block;
 }
 
+.mainbox2 {
+    position: absolute;
+}
 
-
-/*HEADER SECTION*/
+/*HEADER*/
 #headermain {
     padding: 1px;
     opacity: 0.9;
@@ -35,7 +47,7 @@ body {
     height: 110px;
     width: 100%;
     display: block;
-    transition: top 0.5s; /* Transition effect when sliding down (and up) */        
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */      
 }
 
 .mainbox2 .face {
@@ -139,7 +151,7 @@ body {
 
 /*LIPSTICK SECTION*/
 .mainbox .rect {
-    top: 300px;
+    top: 100px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -151,7 +163,7 @@ body {
     position: absolute;
     left: -14%;
     right: 0%;
-    top: -25%; 
+    top: -4%; 
     width: 80%;
 }
 
@@ -159,29 +171,17 @@ body {
     position: absolute;
     left: 35%;
     right: 0%;
-    top: 38%; 
+    top: 52%; 
     width: 80%;
 }
 
-.mainbox .rect .new {
-    position: absolute;
-    text-align: left;
-    left: 4.3%;
-    right: 20%;
-    top: -38%; 
-    height: 100%;
-    width: 80%; 
-    font-family: Helvetica Neue;  
-    color: #6d2321;
-    font-size: 160px;
-}
 
 .mainbox .rect .left {
     position: absolute;
     text-align: right;
     left: 13%;
     right: 10%;
-    top: 6%; 
+    top: 26%; 
     width: 80%; 
     font-family: Helvetica Neue;  
     font-weight: 100;
@@ -194,7 +194,7 @@ body {
     text-align: left;
     left: 16%;
     right: 10%;
-    top: 53%; 
+    top: 61%; 
     width: 80%;
     font-family: Helvetica Neue;  
     font-weight: 100;
@@ -207,7 +207,7 @@ body {
     text-align: left;
     left: 42%;
     right: 10%;
-    top: 83.7%; 
+    top: 85.1%; 
     width: 80%;
     font-family: Helvetica Neue;  
     font-weight: 100;
@@ -229,29 +229,29 @@ body {
     display: inline-block;
 }
 
-.buy:hover {
+.mainbox .buy:hover {
     border-color: darkgrey;
     border-style: solid;
     background: inherit;
     color: darkgrey;
 }
 
-.buy:focus, textarea {
+.mainbox .buy:focus, textarea {
     outline: none !important;
 }
 
 
 
 /*HUES SECTION*/
-.hues {
-    top: 295px;
+.mainbox .hues {
+    top: 60px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
 }
 
-.hues .des {
+.mainbox .hues .des {
     position: absolute;
     text-align: left;
     left: 5%;
@@ -263,7 +263,7 @@ body {
     font-size: 40px; 
 }
 
-.hues .lips {
+.mainbox .hues .lips {
     position: absolute;
     left: 58.3%;
     right: 0%;
@@ -271,7 +271,7 @@ body {
     width: 80%;  
 }
 
-.hues .colors {
+.mainbox .hues .colors {
     position: absolute;
     left: 5%;
     right: 0%;
@@ -282,15 +282,15 @@ body {
 
 
 /*COLORS SECTION*/
-.pink {
-    top: 290px;
+.mainbox .pink {
+    top: 50px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
 }
 
-.pink .lipstickcolors {
+.mainbox .pink .lipstickcolors {
     position: absolute;
     left: 38%;
     right: 0%;
@@ -298,7 +298,7 @@ body {
     width: 80%;
 }
 
-.pink .heading {
+.mainbox .pink .heading {
     position: absolute;
     text-align: left;
     left: 5%;
@@ -310,7 +310,7 @@ body {
     font-size: 50px; 
 }
 
-.pink .desc {
+.mainbox .pink .desc {
     position: absolute;
     text-align: left;
     left: 5%;
@@ -322,7 +322,7 @@ body {
     font-size: 26px;
 }
 
-.buy2 {
+.mainbox .buy2 {
     font-family: Cochin;  
     border-style: solid;
     border-width: 1px;
@@ -334,36 +334,36 @@ body {
     display: inline-block;
 }
 
-.buy2:hover {
+.mainbox .buy2:hover {
     border-color: white;
     background: inherit;
     color: white;
 }
 
-.buy2:focus, textarea {
+.mainbox .buy2:focus, textarea {
     outline: none !important;
 }
 
 
 
 /*PENCIL SECTION*/
-.pencil {
-    top: 280px;
+.mainbox .pencil {
+    top: 150px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
 }
 
-.pencil .pencilimg {
+.mainbox .pencil .pencilimg {
     position: absolute;
     left: 85%;
     right: 0%;
-    top: 10%; 
+    top: 13%; 
     width: 80%;  
 }
 
-.pencil .heading2 {
+.mainbox .pencil .heading2 {
     position: absolute;
     left: 8%;
     right: 0%;
@@ -371,7 +371,7 @@ body {
     width: 80%;
 }
 
-.pencil .pencildesc {
+.mainbox .pencil .pencildesc {
     position: absolute;
     text-align: left;
     left: 10%;
@@ -383,7 +383,7 @@ body {
     font-size: 26px;
 }
 
-.pencil .newcost {
+.mainbox .pencil .newcost {
     position: absolute;
     text-align: left;
     left: 55%;
@@ -395,7 +395,7 @@ body {
     font-size: 38px;
 }
 
-.pencil .oldcost2 {
+.mainbox .pencil .oldcost2 {
     position: absolute;
     text-align: left;
     left: 64%;
@@ -407,7 +407,7 @@ body {
     font-size: 32px;
 }
 
-.pencil .paint {
+.mainbox .pencil .paint {
     position: absolute;
     left: 10%;
     right: 0%;
@@ -415,7 +415,7 @@ body {
     width: 80%; 
 }
 
-.pencil .button {
+.mainbox .pencil .button {
     position: absolute;
     text-align: center;
     left: 23%;
@@ -427,7 +427,7 @@ body {
     font-size: 30px;
 }
 
-.buy3 {
+.mainbox .buy3 {
     font-family: Cochin;  
     color: #b26265;
     border-style: solid;
@@ -440,20 +440,20 @@ body {
     display: inline-block;
 }
 
-.buy3:hover {
+.mainbox .buy3:hover {
     border-color: black;
     background: inherit;
     color: black;
 }
 
-.buy3:focus, textarea {
+.mainbox .buy3:focus, textarea {
     outline: none !important;
 }
 
 
 
 /*PURPLE BONUS SECTION*/
-.purple {
+.mainbox .purple {
     top: 700px;
     position: relative;
     left: 50%;
@@ -461,7 +461,7 @@ body {
     display: inline-block;
 }
 
-.purple .heading3 {
+.mainbox .purple .heading3 {
     position: absolute;
     text-align: center;
     left: 10%;
@@ -473,7 +473,7 @@ body {
     font-size: 24px;
 }
 
-.purple .minies {
+.mainbox .purple .minies {
     position: absolute;
     left: 4%;
     right: 0%;
@@ -481,7 +481,7 @@ body {
     width: 80%;
 }
 
-.purple .bag {
+.mainbox .purple .bag {
     position: absolute;
     left: 36%;
     right: 0%;
@@ -489,7 +489,7 @@ body {
     width: 80%; 
 }
 
-.purple .purpledesc {
+.mainbox .purple .purpledesc {
     position: absolute;
     text-align: right;
     left: 10%;
@@ -504,7 +504,7 @@ body {
 
 
 /*PINK BONUS SECTION*/
-.pinkframe {
+.mainbox .pinkframe {
     top: 750px; 
     position: relative;
     left: 50%;
@@ -512,7 +512,7 @@ body {
     display: inline-block;
 }
 
-.pinkframe .heading4 {
+.mainbox .pinkframe .heading4 {
     position: absolute;
     text-align: center;
     left: 10%;
@@ -524,7 +524,7 @@ body {
     font-size: 24px;
 }
 
-.pinkframe .combo {
+.mainbox .pinkframe .combo {
     position: absolute;
     left: 28%;
     right: 0%;
@@ -532,7 +532,7 @@ body {
     width: 80%; 
 }
 
-.pinkframe .pinkdesc {
+.mainbox .pinkframe .pinkdesc {
     position: absolute;
     text-align: right;
     left: 15%;
@@ -547,7 +547,7 @@ body {
 
 
 /*BLUE BONUS SECTION*/
-.blue {
+.mainbox .blue {
     top: 800px;
     position: relative;
     left: 50%;
@@ -555,7 +555,7 @@ body {
     display: inline-block;
 }
 
-.blue .heading5 {
+.mainbox .blue .heading5 {
     position: absolute;
     text-align: center;
     left: 10%;
@@ -567,7 +567,7 @@ body {
     font-size: 24px;
 }
 
-.blue .bluedesc {
+.mainbox .blue .bluedesc {
     position: absolute;
     text-align: center;
     left: 10%;
@@ -579,7 +579,7 @@ body {
     font-size: 24px;
 }
 
-.blue .group {
+.mainbox .blue .group {
     position: absolute;
     left: 29%;
     right: 0%;
