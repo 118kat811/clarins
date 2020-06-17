@@ -3,6 +3,21 @@ body {
     overflow-x: hidden;
 }
 
+/*THE MAIN BOXES*/
+.mainbox {
+    position: relative;
+    height: auto;
+    width: 50%;
+    transform: translateX(50%);
+    display: inline-block;
+}
+
+.mainbox2 {
+    position: absolute;
+}
+
+
+
 /*HEADER SECTION*/
 #headermain {
     padding: 1px;
@@ -16,13 +31,13 @@ body {
     position: fixed;
     z-index: 9999;
     top: 0;
-    height: 15%;
+    height: 110px;
     width: 100%;
     display: block;
     transition: top 0.5s; /* Transition effect when sliding down (and up) */        
 }
 
-.face {
+.mainbox2 .face {
     font-family: Avenir Next;  
     border-color: transparent;
     background-color: transparent;
@@ -32,13 +47,17 @@ body {
     display: inline-block;
 }
 
-.face:hover {   
+.mainbox2 .face:hover {   
     border-color: transparent;
     background-color: transparent;
     color: red;
 }
+
+.mainbox2 .face:focus, textarea { /* Removal of the blue border on click */
+    outline: none !important;
+}
     
-.header {
+.mainbox2 .header {
     padding: 1px;
     text-align: center;
     background: #bf0f35;
@@ -47,28 +66,14 @@ body {
     position: fixed;
     z-index: 9999;
     top: 0;
-    height: 6.3%;
-    width: 100%
-}
-
-.footer {
-        position: absolute;
-
-    padding: 0px;
-    opacity: 0.9;
-    text-align: center;
-    background: grey;
-    color: black;
-    font-size: 18px;
-    top: 828%;
-    height: 15%;
+    height: 50px;
     width: 100%
 }
 
 
 
 /*MODEL SECTION*/
-.model {
+.mainbox .model {
     top: -15px;
     position: relative;
     left: 50%;
@@ -77,7 +82,7 @@ body {
     text-align: center;
 }
 
-.model .model-text {
+.mainbox .model .model-text {
     position: absolute;
     z-index: 999;
     margin: 0 auto;
@@ -91,12 +96,12 @@ body {
     font-size: 30px;
 }
 
-.mate {
+.mainbox .mate {
     color: #690b08;
     font-size: 60px;
 }
 
-.model .head {
+.mainbox .model .head {
     position: absolute;
     text-align: left;
     left: 5%;
@@ -108,7 +113,7 @@ body {
     font-size: 60px;
 }
 
-.choose {
+.mainbox .choose {
     font-family: Cochin;  
     border-width: 1px;
     border-color: black;
@@ -120,15 +125,19 @@ body {
     display: inline-block;
 }
 
-.choose:hover {
+.mainbox .choose:hover {
     border-color: white;
     color: white;
+}
+
+.mainbox .choose:focus, textarea {
+    outline: none !important;
 }
 
 
 
 /*LIPSTICK SECTION*/
-.rect {
+.mainbox .rect {
     top: 300px;
     position: relative;
     left: 50%;
@@ -137,7 +146,7 @@ body {
     text-align: center;
 }
 
-.rect .lipstick {
+.mainbox .rect .lipstick {
     position: absolute;
     left: -14%;
     right: 0%;
@@ -145,7 +154,7 @@ body {
     width: 80%;
 }
 
-.rect .logo {
+.mainbox .rect .logo {
     position: absolute;
     left: 35%;
     right: 0%;
@@ -153,7 +162,7 @@ body {
     width: 80%;
 }
 
-.rect .new {
+.mainbox .rect .new {
     position: absolute;
     text-align: left;
     left: 4.3%;
@@ -166,7 +175,7 @@ body {
     font-size: 160px;
 }
 
-.rect .left {
+.mainbox .rect .left {
     position: absolute;
     text-align: right;
     left: 13%;
@@ -179,7 +188,7 @@ body {
     font-size: 24px;
 }
 
-.rect .right {
+.mainbox .rect .right {
     position: absolute;
     text-align: left;
     left: 16%;
@@ -192,7 +201,7 @@ body {
     font-size: 24px;
 }
 
-.rect .oldcost {
+.mainbox .rect .oldcost {
     position: absolute;
     text-align: left;
     left: 42%;
@@ -205,7 +214,7 @@ body {
     font-size: 28px;
 }
 
-.buy {
+.mainbox .buy {
     font-family: Helvetica Neue;  
     font-weight: 100;
     color: white;
@@ -224,6 +233,10 @@ body {
     border-style: solid;
     background: inherit;
     color: darkgrey;
+}
+
+.buy:focus, textarea {
+    outline: none !important;
 }
 
 
@@ -308,7 +321,7 @@ body {
     font-size: 26px;
 }
 
-.pink .buy2 {
+.buy2 {
     font-family: Cochin;  
     border-style: solid;
     border-width: 1px;
@@ -320,10 +333,14 @@ body {
     display: inline-block;
 }
 
-.pink .buy2:hover {
+.buy2:hover {
     border-color: white;
     background: inherit;
     color: white;
+}
+
+.buy2:focus, textarea {
+    outline: none !important;
 }
 
 
@@ -409,7 +426,7 @@ body {
     font-size: 30px;
 }
 
-.pencil .buy3 {
+.buy3 {
     font-family: Cochin;  
     color: #b26265;
     border-style: solid;
@@ -422,10 +439,14 @@ body {
     display: inline-block;
 }
 
-.pencil .buy3:hover {
+.buy3:hover {
     border-color: black;
     background: inherit;
     color: black;
+}
+
+.buy3:focus, textarea {
+    outline: none !important;
 }
 
 
